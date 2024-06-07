@@ -1,0 +1,39 @@
+.features-list {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.features-card {
+    width: 270px;
+}
+
+.features {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+.features-card::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(245, 244, 250, 1);
+    border-radius: 4px;
+    background-image: url(../images/features1.jpg);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-card:nth-child(2)::before {
+    background-image: url(../images/features2.jpg);
+}
+
+.features-card:nth-child(3)::before {
+    background-image: url(../images/features3.jpg);
+}
+
+.features-card:nth-child(4)::before {
+    background-image: url(../images/features4.jpg);
+}

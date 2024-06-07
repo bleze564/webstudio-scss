@@ -1,1 +1,269 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+}
+
+.header__navigation-list {
+  display: flex;
+}
+
+.header__navigation-link {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: #212121;
+  position: relative;
+}
+
+.header__navigation-link.current:after {
+  content: "";
+  display: block;
+  background-color: #2196F3;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -33px;
+}
+
+.header__navigation-link:hover,
+.header__navigation-link:focus {
+  color: #2196F3;
+}
+
+.header__navigation-item {
+  margin-right: 50px;
+}
+
+.header__contacts-link {
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  color: #757575;
+  display: flex;
+  align-items: center;
+}
+
+.header__contacts-item {
+  margin-left: 50px;
+}
+
+.header__contacts-icon {
+  margin: 10px;
+  fill: #757575;
+}
+
+.header__contacts-link:hover .header__contacts-icon {
+  fill: #2196F3;
+}
+
+.header__contacts .header__contacts-link:hover {
+  color: #2196F3;
+}
+
+.header__contacts-link:hover,
+.header__contacts-link:focus {
+  color: #2196F3;
+}
+
+.header__contacts-list {
+  margin-top: 9px;
+  color: #757575;
+}
+
+.header__contacts {
+  display: flex;
+}
+
+.header__logo-span {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #2196F3;
+}
+
+.header__logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 93px;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(48, 47, 58, 0.4)), url(../images/backgroundhero.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__button {
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #FFF;
+  background-color: #2196F3;
+  padding: 10px 32px;
+  margin-top: 30px;
+}
+
+.hero__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero__title {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 2.64px;
+  line-height: 136%;
+  text-transform: uppercase;
+  color: #FFF;
+  text-align: center;
+  width: 696px;
+}
+
+.features-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features-card {
+  width: 270px;
+}
+
+.features {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+
+.features-card::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-color: rgb(245, 244, 250);
+  border-radius: 4px;
+  background-image: url(../images/features1.jpg);
+  background-size: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.features-card:nth-child(2)::before {
+  background-image: url(../images/features2.jpg);
+}
+
+.features-card:nth-child(3)::before {
+  background-image: url(../images/features3.jpg);
+}
+
+.features-card:nth-child(4)::before {
+  background-image: url(../images/features4.jpg);
+}
+
+.work-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--nav-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.work-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-img {
+  width: 370px;
+  height: 294px;
+  z-index: -1;
+}
+
+.work-item {
+  width: 370px;
+  height: 294px;
+}
+
+.work-hover {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.work-z-index {
+  top: 20px;
+  z-index: 1;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  opacity: 0.7;
+}/*# sourceMappingURL=main.css.map */
