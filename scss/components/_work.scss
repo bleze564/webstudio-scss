@@ -23,7 +23,7 @@
     height: 294px;
 }
 
-.work-hover {
+.work-hover-text {
     font-family: var(--font-family);
     font-weight: 700;
     font-size: 14px;
@@ -35,10 +35,9 @@
     padding-bottom: 27px;
 }
 
-.work-z-index {
-    top: 20px;
+.work-hover {
+    top: -2px;
     z-index: 1;
-    position: absolute;
     text-align: center;
     background-color: rgba(47, 48, 58, 0.8);
     width: 370px;
