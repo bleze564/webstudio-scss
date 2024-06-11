@@ -55,35 +55,46 @@
         <h1 class="hero__title">ефективні рішення для вашого бізнесу</h1>
         <button class="hero__button">Замовити послугу</button>
         <div class="hero__backdrop is-hidden">
-          <button class="hero__modal-close-btn"><svg class="hero__modal-close">
-              <use href="./images/symbol-defs.svg#icon-close"></use>
-            </svg></button>
-          <h2 class="hero__modal-title">Залиште свої дані, ми вам передзвонимо</h2>
           <div class="hero__modal">
-            <ul class="hero__modal-form">
-              <li class="hero__modal-area">
-                <p class="hero__area-text">Ім'я</p>
-                <input type="text">
-              </li>
-              <li class="hero__modal-area">
-                <p class="hero__area-text">Телефон</p>
-                <input type="number">
-              </li>
-              <li class="hero__modal-area">
-                <p class="hero__area-text">Пошта</p>
-                <input type="text">
-              </li>
-              <li class="hero__modal-area">
-                <p class="hero__area-text">Коментар</p>
-                <input type="text">
-              </li>
-            </ul>
+            <button class="hero__modal-close-btn"><svg class="hero__modal-close">
+                <use href="./images/symbol-defs.svg#icon-close"></use>
+              </svg></button>
+            <h2 class="hero__modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+            <div class="hero__modal-container">
+              <ul class="hero__modal-form">
+                <li class="hero__modal-area">
+                  <p class="hero__area-text">Ім'я</p>
+                  <input type="text" class="hero__modal-input">
+                  <svg class="hero__modal-svg">
+                    <use href="./images/symbol-defs.svg#icon-person"></use>
+                  </svg>
+                </li>
+                <li class="hero__modal-area">
+                  <p class="hero__area-text">Телефон</p>
+                  <input type="number" class="hero__modal-input">
+                  <svg class="hero__modal-svg">
+                    <use href="./images/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+                </li>
+                <li class="hero__modal-area">
+                  <p class="hero__area-text">Пошта</p>
+                  <input type="text" class="hero__modal-input">
+                  <svg class="hero__modal-svg">
+                    <use href="./images/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                </li>
+                <li class="hero__modal-area">
+                  <p class="hero__area-text">Коментар</p>
+                  <input type="text" class="hero__modal-input">
+                </li>
+              </ul>
+              <div class="hero__modal-agree-area">
+                <input type="checkbox" class="hero__modal-checkbox">
+                <p class="hero__modal-agree">Погоджуюся з розсилкою та приймаю</p><a href="#">Умови договору</a>
+              </div>
+              <button class="hero__modal-send">Відправити </button>
+            </div>
           </div>
-          <div class="hero__modal-agree-area">
-            <input type="checkbox" class="hero__modal-checkbox">
-            <p class="hero__modal-agree">Погоджуюся з розсилкою та приймаю</p><a href="#">Умови договору</a>
-          </div>
-          <button class="hero__modal-send">Відправити </button>
         </div>
     </section>
     <section class="features">
