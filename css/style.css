@@ -3,14 +3,7 @@
 }
 
 
-.logo-footer {
-   text-decoration: none;
-   font-family: 'Raleway', sans-serif;
-   font-size: 26px;
-   font-weight: 700;
-   color: var(--text-button-color);
 
-}
 
 
 
@@ -139,48 +132,20 @@
    fill: var(--text-button-color);
 }
 
-.fotter-social {
-   display: flex;
-   justify-content: center;
-   gap: 10px;
-   margin-bottom: 30px;
-   margin-top: 16px;
-}
-
-.fotter-links {}
-
-.fotter-social-links {
-   width: 44px;
-   height: 44px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   fill: var(--text-button-color);
-   border-radius: 50%;
-   background-color: rgba(255, 255, 255, 0.1);
-}
 
 
 
-.fotter-social-links:hover {
-   background-color: var(--button-color);
-   fill: var(--text-button-color);
-}
 
-.fotter-social-icon {
-   width: 20px;
-   height: 20px;
-}
+
+
+
 
 .clients-list {
    display: flex;
    justify-content: space-between;
 }
 
-footer {
-   padding-top: 60px;
-   padding-bottom: 60px;
-}
+
 
 .clients-icon {
    height: 60px;
@@ -202,24 +167,11 @@ footer {
    border: 1px solid var(--button-color);
 }
 
-.footer-organizer {
-   display: flex;
-   justify-content: left;
 
-}
 
-.join-title {
-   font-family: var(--font-family);
-   font-weight: 700;
-   font-size: 14px;
-   letter-spacing: 0.03em;
-   text-transform: uppercase;
-   color: var(--text-button-color);
-}
 
-.fotter-adress {
-   margin-right: 100px;
-}
+
+
 
 .clients-icon:hover {
    fill: var(--button-color);
@@ -230,18 +182,13 @@ footer {
    height: 20px;
 }
 
-.address {
-   display: flex;
-   flex-direction: column;
-}
 
 
 
 
 
-.footer {
-   background-color: var(--fotertext-color);
-}
+
+
 
 .team-members-name {
    font-size: 16px;
@@ -257,13 +204,7 @@ footer {
    color: var(--abouttext-color);
 }
 
-.address-location-link {
-   font-size: 14px;
-   font-weight: 400;
-   line-height: 171%;
-   color: var(--text-button-color);
-   margin-top: 20px;
-}
+
 
 
 

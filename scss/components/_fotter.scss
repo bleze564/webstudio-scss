@@ -1,0 +1,132 @@
+.fotter-social-links:hover {
+    background-color: $button-color;
+    fill: $text-button-color;
+}
+
+.fotter-social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.fotter-links {}
+
+.fotter-social-links {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: $text-button-color;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.fotter-social {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    margin-top: 16px;
+}
+
+.fotter-adress {
+    margin-right: 100px;
+}
+
+.logo-footer {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: $text-button-color;
+
+}
+
+.logo-span {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: $button-color;
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-organizer {
+    display: flex;
+    justify-content: left;
+
+}
+
+.footer {
+    background-color: $fotertext-color;
+}
+
+.join-title {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: $text-button-color;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+}
+
+.address-location-link {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 171%;
+    color: $text-button-color;
+    margin-top: 20px;
+}
+
+.footer__subscribe-title {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer__subscribe-input {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    width: 358px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: rgba(33, 150, 243, 0);
+}
+
+.footer__subscribe-button {
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: #2196f3;
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__subscribe-svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.footer__subscribe-mail {
+    margin-left: 93px;
+}
