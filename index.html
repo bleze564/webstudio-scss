@@ -53,10 +53,10 @@
     <section class="hero">
       <div class="container hero__wrap">
         <h1 class="hero__title">ефективні рішення для вашого бізнесу</h1>
-        <button class="hero__button">Замовити послугу</button>
-        <div class="hero__backdrop is-hidden">
+        <button class="hero__button" data-modal-open>Замовити послугу</button>
+        <div class="hero__backdrop is-hidden" data-modal>
           <div class="hero__modal">
-            <button class="hero__modal-close-btn"><svg class="hero__modal-close">
+            <button class="hero__modal-close-btn" data-modal-close><svg class="hero__modal-close">
                 <use href="./images/symbol-defs.svg#icon-close"></use>
               </svg></button>
             <h2 class="hero__modal-title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -94,7 +94,7 @@
                 </li>
                 <li class="hero__modal-area">
                   <p class="hero__area-text">Коментар</p>
-                  <textarea name="" id="" class="hero__modal-textarea">введіть текст</textarea>
+                  <textarea name="" id="" class="hero__modal-textarea"></textarea>
                 </li>
               </ul>
               <div class="hero__modal-agree-area">

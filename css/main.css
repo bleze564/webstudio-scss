@@ -188,6 +188,7 @@ body {
   height: 581px;
   background-color: #FFF;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .hero__modal-container {
@@ -241,6 +242,9 @@ body {
   width: 18px;
   height: 18px;
   margin-left: 12px;
+  position: absolute;
+  top: 11px;
+  left: -2px;
 }
 .hero__modal-svg:hover {
   fill: #2196F3;
@@ -255,6 +259,7 @@ body {
   border-radius: 4px;
   width: 448px;
   height: 40px;
+  margin-bottom: 10px;
 }
 .hero__modal-input:hover {
   border-color: #2196F3;
@@ -308,6 +313,25 @@ body {
   color: #fff;
   margin-top: 30px;
   margin-left: 125px;
+}
+
+.hero__backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.hero__backdrop.is-hiden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .features-list {
