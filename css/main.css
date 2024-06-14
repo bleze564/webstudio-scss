@@ -323,6 +323,8 @@ body {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   opacity: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .hero__backdrop.is-hidden {
@@ -331,6 +333,10 @@ body {
 }
 
 .no-scroll {
+  overflow: hidden;
+}
+
+.hero__backdrop.no-scroll {
   overflow: hidden;
 }
 
