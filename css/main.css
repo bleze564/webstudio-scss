@@ -383,7 +383,7 @@ body {
   margin-bottom: 100px;
 }
 
-.work-title {
+.work__title {
   font-size: 36px;
   font-weight: 700;
   color: #212121;
@@ -391,23 +391,23 @@ body {
   margin-bottom: 50px;
 }
 
-.work-list {
+.work__list {
   display: flex;
   justify-content: space-between;
 }
 
-.work-img {
+.work__img {
   width: 370px;
   height: 294px;
   z-index: -3;
 }
 
-.work-item {
+.work__item {
   width: 370px;
   height: 294px;
 }
 
-.work-hover-text {
+.work__hover-text {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 14px;
@@ -417,7 +417,7 @@ body {
   color: #fff;
 }
 
-.work-hover {
+.work__hover {
   width: 370px;
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
