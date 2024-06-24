@@ -1,10 +1,10 @@
-.features-list {
+.features__list {
     display: flex;
     justify-content: space-between;
 
 }
 
-.features-card {
+.features__card {
     width: 270px;
 }
 
@@ -13,7 +13,7 @@
     margin-bottom: 94px;
 }
 
-.features-card::before {
+.features__card::before {
     content: '';
     display: block;
     width: 100%;
@@ -26,14 +26,14 @@
     background-position: center;
 }
 
-.features-card:nth-child(2)::before {
+.features__card:nth-child(2)::before {
     background-image: url(../images/features2.jpg);
 }
 
-.features-card:nth-child(3)::before {
+.features__card:nth-child(3)::before {
     background-image: url(../images/features3.jpg);
 }
 
-.features-card:nth-child(4)::before {
+.features__card:nth-child(4)::before {
     background-image: url(../images/features4.jpg);
 }

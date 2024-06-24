@@ -1,16 +1,16 @@
-.fotter-social-links:hover {
+.fotter__social-links:hover {
     background-color: $button-color;
     fill: $text-button-color;
 }
 
-.fotter-social-icon {
+.fotter__social-icon {
     width: 20px;
     height: 20px;
 }
 
-.fotter-links {}
+.fotter__links {}
 
-.fotter-social-links {
+.fotter__social-links {
     width: 44px;
     height: 44px;
     display: flex;
@@ -21,7 +21,7 @@
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.fotter-social {
+.fotter__social {
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -29,11 +29,11 @@
     margin-top: 16px;
 }
 
-.fotter-adress {
+.fotter__adress {
     margin-right: 100px;
 }
 
-.logo-footer {
+.logo__footer {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -42,7 +42,7 @@
 
 }
 
-.logo-span {
+.logo__span {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -55,7 +55,7 @@ footer {
     padding-bottom: 60px;
 }
 
-.footer-organizer {
+.footer__organizer {
     display: flex;
     justify-content: left;
 
@@ -65,7 +65,7 @@ footer {
     background-color: $fotertext-color;
 }
 
-.join-title {
+.join__title {
     font-family: $font-family;
     font-weight: 700;
     font-size: 14px;
@@ -79,7 +79,7 @@ footer {
     flex-direction: column;
 }
 
-.address-location-link {
+.address__location-link {
     font-size: 14px;
     font-weight: 400;
     line-height: 171%;
