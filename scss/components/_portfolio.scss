@@ -1,7 +1,18 @@
-.portfolio__wrap {
-    margin-top: 20px;
+// .portfolio__wrap {
+//     margin-top: 20px;
+// }
+
+
+
+.portfolio {
+    padding-bottom: 60px;
+    padding-top: 60px;
 }
 
+// .portfolio{
+//     padding-bottom: 64px;
+//     padding-top: 64px;
+// }
 
 
 
@@ -12,38 +23,45 @@
 
 
 
+// .portfolio__list {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     gap: 30px;
+//     margin-bottom: 94px;
+// }
 
+// .portfolio__item {
+//     flex-basis: calc((100% - 60px) / 3);
 
-
-
-.portfolio__list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 94px;
-}
-
+// }
 .portfolio__item {
     flex-basis: calc((100% - 60px) / 3);
 
 }
 
-.portfolio__item:hover .portfolio-card {
-    opacity: 1;
-}
+// .portfolio__item:hover .portfolio-card {
+//     opacity: 1;
+// }
 
-.portfolio__item:hover {
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
+// .portfolio__item:hover {
+//     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+// }
 
-.portfolio__item:focus {
-    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-}
+// .portfolio__item:focus {
+//     box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+// }
 
+// .filter {
+//     display: flex;
+//     justify-content: center;
+//     gap: 8px;
+//     margin-bottom: 50px;
+// }
 .filter {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
     margin-bottom: 50px;
 }
@@ -51,31 +69,29 @@
 
 
 
+// .product__action {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     padding: 63px 24px;
+//     font-size: 18px;
+//     color: $text-button-color;
+//     letter-spacing: 0.03em;
+//     line-height: 1.6;
+//     background-color: rgba(33, 150, 243, 0.9);
+//     opacity: 0;
+//     width: 100%;
+// }
 
-.product__action {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 63px 24px;
-    font-size: 18px;
-    color: $text-button-color;
-    letter-spacing: 0.03em;
-    line-height: 1.6;
-    background-color: rgba(33, 150, 243, 0.9);
-    opacity: 0;
-    width: 100%;
-}
+// .portfolio__item:hover .product-action {
+//     opacity: 1;
 
-.portfolio__item:hover .product-action {
-    opacity: 1;
+// }
 
-}
-
-.portfolio__card {
-    position: relative;
-    overflow: hidden;
-}
-
+// .portfolio__card {
+//     position: relative;
+//     overflow: hidden;
+// }
 
 
 
@@ -100,8 +116,20 @@
 
 
 
-/* this is portfolio  */
 
+// /* this is portfolio  */
+
+// .portfolio__button {
+//     border: 0;
+//     width: 125px;
+//     height: 38px;
+//     font-family: $font-family;
+//     font-weight: 600;
+//     font-size: 16px;
+//     letter-spacing: 0.03em;
+//     text-align: center;
+//     margin-top: 94px;
+// }
 .portfolio__button {
     border: 0;
     width: 125px;
@@ -111,27 +139,31 @@
     font-size: 16px;
     letter-spacing: 0.03em;
     text-align: center;
-    margin-top: 94px;
+    // margin-top: 94px;
 }
 
+// .portfolio__button:hover {
+//     background-color: $button-color;
+//     color: $text-button-color;
+// }
 .portfolio__button:hover {
     background-color: $button-color;
     color: $text-button-color;
 }
 
-.portfolio__description {
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 0.48px;
-    line-height: 187%;
-    color: $abouttext-color;
-    margin-bottom: 20px;
-}
+// .portfolio__description {
+//     font-size: 16px;
+//     font-weight: 400;
+//     letter-spacing: 0.48px;
+//     line-height: 187%;
+//     color: $abouttext-color;
+//     margin-bottom: 20px;
+// }
 
-.portfolio__title {
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 200%;
-    color: $nav-color;
-    padding: 20px;
-}
+// .portfolio__title {
+//     font-size: 18px;
+//     font-weight: 700;
+//     line-height: 200%;
+//     color: $nav-color;
+//     padding: 20px;
+// }
