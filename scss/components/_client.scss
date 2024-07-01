@@ -10,6 +10,9 @@
     width: 106px;
     fill: $abouttext-color;
     margin-top: 16px;
+    transition-property: fill, ;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__item {
@@ -19,6 +22,9 @@
     margin-bottom: 94px;
     border: 1px solid $abouttext-color;
     border-radius: 4px;
+    transition-property: border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients__item:hover {

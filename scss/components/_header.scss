@@ -25,6 +25,9 @@
     letter-spacing: 0.28px;
     color: $nav-color;
     position: relative;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__navigation-link.current:after {
@@ -37,7 +40,6 @@
     position: absolute;
     left: 0;
     bottom: -33px;
-
 
 }
 
@@ -57,6 +59,9 @@
     color: $abouttext-color;
     display: flex;
     align-items: center;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__contacts-item {
@@ -66,6 +71,9 @@
 .header__contacts-icon {
     margin: 10px;
     fill: $featurestext-color;
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header__contacts-link:hover .header__contacts-icon {
@@ -81,16 +89,13 @@
     color: $logo-first-part-color;
 }
 
-.header__contacts-list {
-    margin-top: 9px;
-    color: #757575;
-}
+
 
 .header__contacts {
     display: flex;
 }
 
-.header__logo-span {
+.logo-span {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;

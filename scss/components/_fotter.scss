@@ -8,6 +8,11 @@
     height: 20px;
 }
 
+.footer__contacts-list {
+    margin-top: 9px;
+    color: #757575;
+}
+
 .fotter__links {}
 
 .fotter__social-links {
@@ -19,6 +24,9 @@
     fill: $text-button-color;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
+    transition-property: fill, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fotter__social {
@@ -33,7 +41,7 @@
     margin-right: 100px;
 }
 
-.logo__footer {
+.footer__logo {
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -42,13 +50,7 @@
 
 }
 
-.logo__span {
-    text-decoration: none;
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-    font-weight: 700;
-    color: $button-color;
-}
+
 
 footer {
     padding-top: 60px;
