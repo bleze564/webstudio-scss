@@ -360,6 +360,26 @@ body {
   justify-content: space-between;
 }
 
+.features__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+  margin-top: 30px;
+}
+
+.features__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+  margin-top: 10px;
+}
+
 .features__card {
   width: 270px;
 }
@@ -392,6 +412,10 @@ body {
 
 .features__card:nth-child(4)::before {
   background-image: url(../images/features4.jpg);
+}
+
+.work {
+  padding-bottom: 94px;
 }
 
 .work__title {
@@ -445,7 +469,7 @@ body {
 }
 
 .team {
-  padding-top: 100px;
+  padding-top: 94px;
   padding-bottom: 100px;
   background-color: rgb(245, 244, 250);
 }
@@ -460,6 +484,26 @@ body {
   width: 270px;
   background-color: #FFF;
   box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+
+.team__members-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  margin-top: 30px;
+}
+
+.team__members-position {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #757575;
+  margin-top: 10px;
 }
 
 .team__links {
@@ -492,7 +536,6 @@ body {
   font-size: 40px;
   margin-bottom: 50px;
   text-align: center;
-  margin-top: 94px;
 }
 
 .team__icon {
@@ -512,6 +555,10 @@ body {
   font-weight: 400;
   letter-spacing: 0.48px;
   color: #757575;
+}
+
+.client {
+  padding-top: 94px;
 }
 
 .clients__list {
@@ -680,6 +727,7 @@ footer {
 
 .portfolio__wrap {
   margin-top: 20px;
+  margin-left: 24px;
 }
 
 .portfolio {

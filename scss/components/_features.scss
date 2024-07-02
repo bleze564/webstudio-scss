@@ -4,6 +4,26 @@
 
 }
 
+.features__title {
+    font-family: $font-family;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 30px;
+}
+
+.features__text {
+    font-family: $font-family;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+}
+
 .features__card {
     width: 270px;
 }
