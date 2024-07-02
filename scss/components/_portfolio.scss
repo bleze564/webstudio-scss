@@ -29,7 +29,9 @@
 
 .portfolio__item {
     flex-basis: calc((100% - 60px) / 3);
-
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -116,6 +118,9 @@
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 94px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
