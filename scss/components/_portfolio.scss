@@ -1,6 +1,7 @@
 .portfolio__wrap {
     margin-top: 20px;
     margin-left: 24px;
+    z-index: 999;
 }
 
 
@@ -60,6 +61,7 @@
 
 
 .product__action {
+    z-index: 1;
     position: absolute;
     top: 0;
     left: 0;
@@ -71,11 +73,15 @@
     background-color: rgba(33, 150, 243, 0.9);
     opacity: 0;
     width: 100%;
+    transition-property: transform;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateY(300px);
 }
 
 .portfolio__item:hover .product__action {
     opacity: 1;
-
+    transform: translateY(0);
 }
 
 .portfolio__card {

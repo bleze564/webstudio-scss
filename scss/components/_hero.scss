@@ -41,6 +41,7 @@
     background-color: $text-button-color;
     box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     cursor: pointer;
+
 }
 
 .hero__modal-container {
@@ -191,6 +192,9 @@
     opacity: 1;
     display: flex;
     justify-content: center;
+    transition-property: opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__backdrop.is-hidden {
