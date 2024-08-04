@@ -53,3 +53,8 @@
 .work__hover-text-conection {
     position: relative;
 }
+@media screen and (max-width:768px) {
+        .work{
+            display: none;
+        }
+}

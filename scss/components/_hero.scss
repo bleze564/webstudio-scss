@@ -209,3 +209,29 @@
 .hero__backdrop.no-scroll {
     overflow: hidden;
 }
+
+@media screen and (max-width:768px) {
+    .hero {
+        width: 480px;
+    }
+
+    .hero__wrap {
+        width: 480px;
+    }
+
+    .hero__button {
+        width: 200px;
+        height: 50px;
+    }
+
+    .hero__title {
+        font-size: 26;
+    }
+
+    .hero__modal {
+        width: 450px;
+        height: 609px;
+
+    }
+
+}

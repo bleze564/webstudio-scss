@@ -33,6 +33,7 @@
 
 .clients__item:hover {
     border: 1px solid $button-color;
+
 }
 
 
@@ -43,4 +44,17 @@
 
 .clients__icon:hover {
     fill: $button-color;
+}
+
+@media screen and (max-width:768px) {
+    .client {}
+
+    .clients__list {
+        flex-wrap: wrap;
+    }
+
+    .clients__item {
+        width: 210px;
+        margin-bottom: 30px;
+    }
 }

@@ -132,3 +132,17 @@ footer {
 .footer__subscribe-mail {
     margin-left: 93px;
 }
+
+@media screen and (max-width:768px) {
+    .footer__organizer {}
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer__subscribe-mail {
+        margin-left: 0;
+    }
+
+}
