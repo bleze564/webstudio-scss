@@ -111,14 +111,3 @@
     color: $logo-second-part-color;
     margin-right: 93px;
 }
-@media screen and (max-width:768px) {
-    .header{
-    width: 100%;
-    }
-    .header__navigation-list{
-        display: none;
-    }
-    .header__contacts{
-        display: none;
-    }
-}
